@@ -1,0 +1,78 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "FDFullscreenPopGesture-debug.module": ["<FDFullscreenPopGesture-debug.module>"]
+  "FDFullscreenPopGesturePackageTests-debug.test": ["<FDFullscreenPopGesturePackageTests-debug.test>"]
+  "FDFullscreenPopGestureTests-debug.module": ["<FDFullscreenPopGestureTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<FDFullscreenPopGesture-debug.module>"]
+  "test": ["<FDFullscreenPopGesture-debug.module>","<FDFullscreenPopGesturePackageTests-debug.test>","<FDFullscreenPopGestureTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Sources/FDFullscreenPopGesture/":
+    is-directory-structure: true
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/":
+    is-directory-structure: true
+commands:
+  "<FDFullscreenPopGesture-debug.module>":
+    tool: phony
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.swiftmodule"]
+    outputs: ["<FDFullscreenPopGesture-debug.module>"]
+
+  "<FDFullscreenPopGesturePackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesturePackageTests.xctest/Contents/MacOS/FDFullscreenPopGesturePackageTests"]
+    outputs: ["<FDFullscreenPopGesturePackageTests-debug.test>"]
+
+  "<FDFullscreenPopGestureTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.swiftmodule"]
+    outputs: ["<FDFullscreenPopGestureTests-debug.module>"]
+
+  "C.FDFullscreenPopGesture-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/Sources/FDFullscreenPopGesture/FDFullscreenPopGesture.swift"]
+    outputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "FDFullscreenPopGesture"
+    module-output-path: "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.swiftmodule"
+    import-paths: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build"
+    objects: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture-Swift.h","-color-diagnostics"]
+    sources: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/Sources/FDFullscreenPopGesture/FDFullscreenPopGesture.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "C.FDFullscreenPopGesturePackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.swift.o"]
+    outputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesturePackageTests.xctest/Contents/MacOS/FDFullscreenPopGesturePackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/FDFullscreenPopGesturePackageTests.xctest/Contents/MacOS/FDFullscreenPopGesturePackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug","-o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesturePackageTests.xctest/Contents/MacOS/FDFullscreenPopGesturePackageTests","-module-name","FDFullscreenPopGesturePackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesturePackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-Xlinker","-add_ast_path","-Xlinker","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.FDFullscreenPopGestureTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/FDFullscreenPopGestureTests.swift","/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/XCTestManifests.swift","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.swiftmodule"]
+    outputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "FDFullscreenPopGestureTests"
+    module-output-path: "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.swiftmodule"
+    import-paths: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build"
+    objects: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.swift.o","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/FDFullscreenPopGestureTests.swift","/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/XCTestManifests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/dbh/Desktop/111/FDFullscreenPopGesture/Sources/FDFullscreenPopGesture/","/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/","/Users/dbh/Desktop/111/FDFullscreenPopGesture/Package.swift","/Users/dbh/Desktop/111/FDFullscreenPopGesture/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

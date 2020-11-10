@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "7e9f43635c672d763277093548f513b8"
+build_time: [1604976472, 138925000]
+inputs:
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Sources/FDFullscreenPopGesture/FDFullscreenPopGesture.swift": [1604976450, 236935664]

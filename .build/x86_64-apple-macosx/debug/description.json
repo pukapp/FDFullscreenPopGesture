@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "FDFullscreenPopGesture",
+      "productName" : "FDFullscreenPopGesturePackageTests",
+      "testBinary" : "\/Users\/dbh\/Desktop\/111\/FDFullscreenPopGesture\/.build\/x86_64-apple-macosx\/debug\/FDFullscreenPopGesturePackageTests.xctest\/Contents\/MacOS\/FDFullscreenPopGesturePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.FDFullscreenPopGesture-debug.module" : "FDFullscreenPopGesture",
+    "C.FDFullscreenPopGestureTests-debug.module" : "FDFullscreenPopGestureTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

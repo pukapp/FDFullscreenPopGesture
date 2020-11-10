@@ -1,0 +1,4 @@
+module FDFullscreenPopGesture {
+    header "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture-Swift.h"
+    requires objc
+}

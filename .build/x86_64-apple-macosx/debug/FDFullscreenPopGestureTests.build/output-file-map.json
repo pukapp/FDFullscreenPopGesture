@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/master.swiftdeps"
+  },
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/FDFullscreenPopGestureTests.swift": {
+    "dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.d",
+    "object": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.swift.o",
+    "swiftmodule": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/FDFullscreenPopGestureTests.swiftdeps"
+  },
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/XCTestManifests.swift": {
+    "dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.d",
+    "object": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGestureTests.build/XCTestManifests.swiftdeps"
+  }
+}

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "f8e4277506af8ca47c5e59e44db79604"
+build_time: [1604976481, 315424000]
+inputs:
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/FDFullscreenPopGestureTests.swift": [1604976450, 237504483]
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Tests/FDFullscreenPopGestureTests/XCTestManifests.swift": [1604976450, 237661422]

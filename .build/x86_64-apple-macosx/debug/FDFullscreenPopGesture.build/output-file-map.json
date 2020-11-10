@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/master.swiftdeps"
+  },
+  "/Users/dbh/Desktop/111/FDFullscreenPopGesture/Sources/FDFullscreenPopGesture/FDFullscreenPopGesture.swift": {
+    "dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.d",
+    "object": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.swift.o",
+    "swiftmodule": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture~partial.swiftmodule",
+    "swift-dependencies": "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/FDFullscreenPopGesture.swiftdeps"
+  }
+}

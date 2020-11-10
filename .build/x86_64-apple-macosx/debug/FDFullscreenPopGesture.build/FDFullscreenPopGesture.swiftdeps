@@ -1,0 +1,20 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FDFullscreenPopGesture"
+provides-nominal:
+- "22FDFullscreenPopGestureAAV"
+provides-member:
+- ["22FDFullscreenPopGestureAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "FDFullscreenPopGesture"
+- "StringLiteralType"
+depends-member:
+- ["22FDFullscreenPopGestureAAV", "init"]
+- ["22FDFullscreenPopGestureAAV", "text"]
+depends-nominal:
+- "22FDFullscreenPopGestureAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/dbh/Desktop/111/FDFullscreenPopGesture/.build/x86_64-apple-macosx/debug/FDFullscreenPopGesture.build/module.modulemap"
+interface-hash: "4010f990276bcaa9138efd0a103effd9"
